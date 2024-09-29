@@ -1,0 +1,169 @@
+/* Upcoming Events container */
+.custom-container-first {
+    margin-left: 1000px; 
+    width: 500px;
+    height: 500px;
+    border-radius: 16px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 0;
+    box-sizing: border-box; 
+}
+
+/* Styling for the image */
+.custom-image-first {
+    margin-left: 101px;
+    width: 1000px; 
+    height: 200px;
+    object-fit: cover;
+    border-radius: 16px;
+    max-width: 100%; 
+    height: auto;
+}
+
+/* Styling for the header in the Upcoming Events section */
+.additional-text h111 {
+    margin-left: 120px;
+    font-size: 48px;
+    color: #0F346C !important;
+    font-family: 'Red Rose';
+    font-weight: bolder !important;
+}
+
+/* Styling for the text section */
+.custom-text {
+    margin-left: 101px;
+    margin-top: 30px;
+    text-align: left;
+    width: 100%;
+}
+
+.custom-text h55 {
+        font-size: 24px;
+        color: black !important;
+        font-family: 'Red Rose';
+        font-weight: bolder !important;
+        margin-bottom: 10px;
+    }
+
+    .custom-text p {
+        font-size: 16px;
+        font-family: 'Lato';
+        color: black !important;
+        font-weight: 500;
+        line-height: 19.2px;
+        margin-top: 10px;
+    }
+
+    .custom-text .learn-more {
+        display: inline-block;
+        margin-top: 30px;
+        text-align: left;
+        font-size: 16px;
+        color: black !important;
+        font-family: "Lato";
+        text-align: left !important;
+        cursor: pointer;
+        display: block;
+        margin: 0 auto 15px;
+    }
+
+/* Transparent Blue Panel */
+.blue-panel {
+    position: absolute;
+    top: 40px;
+    left: 126px;
+    width: 130px;
+    height: 40px;
+    background-color: rgba(15, 52, 108, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    z-index: 1;
+}
+
+/* Text inside the blue panel */
+.panel-text {
+    color: white;
+    font-size: 16px;
+    font-family: 'Lato';
+    font-weight: bold;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+    .custom-container-first {
+        width: 100%; 
+        height: auto; 
+        margin-left: 0; 
+        margin-right: 0;
+    }
+
+    .custom-image-first {
+        width: 100%; 
+        max-width: 100%;
+        height: auto; 
+        margin-left: 0; 
+    }
+
+    .custom-text {
+        margin-left: 0; 
+        text-align: center; 
+    }
+
+    .blue-panel {
+        top: 30px; 
+        left: 5%; 
+        width: 20%; 
+        height: auto; 
+        border-radius: 4px; 
+        font-size: 14px; 
+    }
+    .additional-text h111 {
+        font-size: 36px; 
+        margin-left: 0; 
+    }
+   
+}
+
+@media (max-width: 576px) { /* For mobile */
+    .custom-container-first {
+        flex-direction: column; 
+        margin-left: 0; 
+        margin-right: 0;
+    }
+
+    .custom-image-first {
+        width: 100%; 
+        height: auto;
+    }
+
+    .custom-text {
+        font-size: 14px;
+        margin-left: 0;
+        text-align: center; 
+    }
+
+    .blue-panel {
+        top: 20px; 
+        left: 0; 
+        width: 100%; 
+        height: auto; 
+        border-radius: 0; 
+        font-size: 12px; 
+        padding: 10px; 
+    }
+
+    .additional-text h111 {
+        font-size: 28px; 
+        margin-left: 0; 
+    }
+
+ 
+}
